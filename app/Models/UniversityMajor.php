@@ -13,4 +13,10 @@ class UniversityMajor extends Model
     {
         return $this->belongsTo(University::class);
     }
+
+    public function major()
+    {
+        $major = $this->belongsTo(Major::class);
+        return $major;
+    }
 }

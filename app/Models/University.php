@@ -17,6 +17,11 @@ class University extends Model
 
     public function majors()
     {
-        return $this->hasMany(Major::class);
+        return $this->hasMany(UniversityMajor::class);
+    }
+
+    public function scholerships()
+    {
+        return $this->hasMany(Scholership::class);
     }
 }

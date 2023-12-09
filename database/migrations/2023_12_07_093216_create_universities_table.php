@@ -15,13 +15,17 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('address');
-            $table->string('map_url');
+            $table->string('short_address');
+            $table->string('image_path');
+            $table->text('map_url');
+            $table->string('tentative_tution_cost');
             $table->string('contact');
-            $table->string('campus_facilities');
+            $table->text('campus_facilities');
             $table->string('admission_stat');
-            $table->string('grading-system');
-            $table->string('next-addmission-intake');
-            $table->date('next-addmission-deadline');
+            $table->text('grading_system');
+            $table->integer('total_students');
+            $table->string('next_addmission_intake');
+            $table->date('next_addmission_deadline');
             $table->timestamps();
         });
     }
