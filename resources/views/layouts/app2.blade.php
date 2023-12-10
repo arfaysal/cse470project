@@ -178,7 +178,7 @@
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a class="border-bottom" href="#">University Admission Suggestion </a>, All Right
                         Reserved. <br>
-                        Designed By <a class="border-bottom" href="">Group-1, Section-4@CSE470</a><br><br>
+                        Designed By <a class="border-bottom" href="">Md Faysal (ID:19101504), Rakibul Hassan Hredoy (ID:20101357), MD AbirAnam Bhuiyan (ID: 20101058), MD. Arif Masud (ID:20101576), Group-1, Section-4@CSE470</a><br><br>
 
                     </div>
                     <div class="col-md-6 text-center text-md-end">
